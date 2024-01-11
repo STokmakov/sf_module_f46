@@ -40,6 +40,6 @@ http://127.0.0.1:8000/api/categories/ - перечень категорий
 http://127.0.0.1:8000/api/recipe - перечень всех рецептов
 http://127.0.0.1:8000/api/recipes/?category=1 - перечень рецептов категории (id = 1)
 
-Установка и запуск react
+Запуск react
 
-npm i @material-ui/core --legacy-peer-deps
+ npm start
