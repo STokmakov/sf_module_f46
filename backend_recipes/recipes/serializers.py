@@ -5,7 +5,7 @@ from recipes.models import Recipe, Category
 class CategoriesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = ('name',)
+        fields = ('id', 'name',)
 
 
 class ListRecipesSerializer(serializers.ModelSerializer):
